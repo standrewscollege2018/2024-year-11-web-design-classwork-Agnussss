@@ -1,6 +1,6 @@
 @font-face {
     font-family: braille;
-    src: url(Fonts/braille/BRAILLE.ttf);
+    src: url(braille/BRAILLE.ttf);
 }
 
 body {

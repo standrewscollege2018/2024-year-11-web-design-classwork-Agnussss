@@ -1,0 +1,53 @@
+@font-face {
+    font-family: china;
+    src: url(Font/ming_imperial/Ming\ Imperial.TTF);
+    font-family: night;
+    src: url(Font/nightcore/Nightcore\ Demo.ttf);
+    font-family: tribe;
+    src: url(Font/damgram_next/Damgram-Next-Regular.otf);
+    font-family: egypt;
+    src: url(Font/egyptian/egyptian.ttf);
+    font-family: egypt2;
+    src: url(Font/Egyptian\ Letters.ttf);
+    font-family: china2;
+    src: url(Font/Chinatoo.ttf);
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: aliceblue;
+    margin: 20;
+    padding: 20;
+
+}
+
+p {
+    padding: 10;
+    
+}
+
+ul { 
+    margin: 10;
+    padding: 5;
+}
+a:link, a:visited{
+    margin: 10;
+    color: pink;
+}
+
+a:hover{
+    color: aquamarine;
+}
+
+h1 {
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
