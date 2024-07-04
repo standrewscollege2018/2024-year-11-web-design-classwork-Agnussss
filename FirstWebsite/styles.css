@@ -3,6 +3,109 @@
     src: url(braille/BRAILLE.ttf);
 }
 
-body {
-    font-family: braille;
+
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.main-content {
+    background-color: blanchedalmond;
+    color: rebeccapurple;
+}
+.main-content {
+    margin: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.main-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.secondary-content {
+    background-color: lightgoldenrodyellow;
+    color: mediumspringgreen;
+}
+.secondary-content {
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+}
+.secondary-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.mq-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.intro {
+    padding: 15px;
+}
+
+.main {
+    padding: 15px;
+}
+
+@media only screen and (max-width: 1000px){
+    .mq-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .mq-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .mq-container {
+        background-color: red;
+    }
+}
+
+@media only screen and (max-width: 9000px){
+    .mq-container {
+        background-color: blue;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .mq-container {
+        background-color: green;
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .mq-container {
+        background-color: yellow;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .mq-container {
+        background-color: white;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .mq-container {
+        background-color: black;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .mq-container {
+        background-color: pink;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .mq-container {
+        background-color: lemonchiffon;
+    }
 }

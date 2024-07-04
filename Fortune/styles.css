@@ -1,0 +1,70 @@
+.index-body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 100px;
+    background-color: rgb(230, 230, 230);
+}
+
+
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 300px;
+}
+
+#fortune {
+    margin: 20px 0;
+    font-size: large;
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: medium;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.info-container-no-center {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+.info-container-center {
+    text-align: center;
+}
+
+.info-body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    background-color: rgb(230, 230, 230)
+}
+
+.info-matthew img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.info-liam-angry {
+    padding: 25px;
+}
+
+p {
+    font-size:large;
+}

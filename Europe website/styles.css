@@ -14,10 +14,7 @@
     
 }
 
-* {
-    margin: 0;
-    padding: 0;
-}
+
 
 body {
     background-color: black;
@@ -27,17 +24,7 @@ body {
 
 }
 
-p {
-    padding: 10;
-    
-}
-
-ul { 
-    margin: 10;
-    padding: 5;
-}
 a:link, a:visited{
-    margin: 10;
     color: pink;
 }
 
@@ -49,5 +36,60 @@ h1 {
     font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
 
+.card {
+    border: 1px solid white;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 15px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    padding: 0px 15px;
+
+}
+
+.card p {
+    padding: 15px;
+}
+
+.potato {
+    padding: 15px;
+    margin: 15px;
+}
+
+.index-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.index-intro {
+    padding: 15px;
+}
+
+.index-country {
+    padding: 15px;
+}
+
+@media only screen and (max-width: 800px){
+    .index-container {
+        grid-template-columns: 1fr;
+    }
+    .index-intro {
+        border: 5px white solid;
+    }
+}
+
+.somethingorrather {
+    text-align: center;
+}
 

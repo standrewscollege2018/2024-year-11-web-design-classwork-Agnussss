@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(22, 60, 96);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.index-top-box {
+    display: grid;
+    grid-template-columns: 100%;
+    overflow: hidden;
+}
+
+.index-top-box img {
+    max-width: 100%;
+    height: auto;
+}
+
+.index-nav-bar {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+.index-nav-bar a:link, a:visited {
+    margin: 0px 30px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+
+
+.index-container {
+    margin: 0px auto;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.index-youtube img {
+    max-width: 90%;
+    height: auto;
+}
+
+.index-youtube {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.index-what-on {
+    font-weight: bold;
+    color: darkblue;
+    margin: 10px;
+    text-align: left;
+}
+
+.bold {
+    font-weight: bold;  
+    color: blue;
+}
+
+.card {
+    margin: 0px 100px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .index-container {
+        grid-template-columns: 1fr;
+    }
+    .index-dates {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .index-what-on {
+        display: none;
+    }
+    .card {
+        margin: 0px 20px;
+    }
+}
+
+.paragraph-padding {
+    padding: 10px;
+}
+
+.index-image-box {
+    text-align: center;
+    background-color: grey;
+}
